@@ -9,7 +9,7 @@ import  LogoutBtn  from "./LogoutBtn.jsx";
 import { toggleTheme } from "../../redux/theme/ThemeSlice.js";
 
 
-function header() {
+function Header() {
   const navigate = useNavigate()
   const authStatus = useSelector((state) => state.auth.status)
   const theme = useSelector((state) => state.theme.theme)
@@ -103,4 +103,4 @@ function header() {
   )
 }
 
-export default header;
+export default Header;

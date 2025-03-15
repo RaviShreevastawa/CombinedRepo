@@ -6,7 +6,7 @@ import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
 import About from './components/About';
 import Contact from './components/Contact';
-import Services from './components/Services';
+import Services from './components/service/Services.jsx';
 import AuthLayout from './components/AuthLayout';
 import App from './App';
 import React from 'react';

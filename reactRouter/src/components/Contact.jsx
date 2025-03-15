@@ -5,7 +5,7 @@ const Contact = () => {
 
   const [name, setName] = useState('')
   const [email, setEmail] = useState("")
-  const [message, setMessage] = useState("");
+  const [message, setMessage] = useState("")
 
   const handleSubmit =  (e) => {
     e.preventDefault()
